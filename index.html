@@ -9,24 +9,29 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <title>Haritalar ve çeşitleri nedir ?</title>
-    
+
 </head>
 <body>
     <div class="top-bar">
     </div>
     <div class="container">
         <div class="logo"><a href="index.html">HARİTALARIM</a></div>
-       <ul class="menu">
-            <li><a class="menuItem" href="index.html">Anasayfa</a></li>
-            <li><a class="menuItem" href="assets/page/topografya_haritasi.html">Topoğrafya Haritaları</a></li>
-            <li><a class="menuItem" href="assets/page/izohips_haritasi.html">İzohips Haritası</a></li>
-            <li><a class="menuItem" href="assets/page/cografi_haritalar.html">Coğrafya Haritaları</a></li>
-        </ul>
-        <button class="hamburger">
-          <!-- material icons https://material.io/resources/icons/ -->
-          <i class="uil uil-bars"></i>
-          <i class="uil uil-times"></i>
-        </button>
+        <div id="YanMenu" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+        
+          &times;</a>
+        
+          <a href="#">Anasayfa</a>
+          <a href="assets/page/topografya_haritasi.html">Topoğrafya Haritaları</a>
+          <a href="assets/page/izohips_haritasi.html">İzohips Haritası</a>
+          <a href="assets/page/cografi_haritalar.html">Coğrafya Haritaları</a>
+          <a href="assets/page/iletisim.html">İletişim</a>
+        </div>
+        
+        
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+        &#9776;
+        </span>
     </div>
 
     <section id="sec1">
@@ -185,6 +190,9 @@
 	
 	<p><span style="color: #ffffff;">Örnek: 1/25000 ölçekli bir harita üzerinde yer alan iki nokta arası 10 cm ile gösterildiğine göre, bu iki noktanın birbirine olan gerçek uzunluğu kaç metredir?</span></p>
 	<br><br>
+
+
+
 	<p>GERÇEK UZUNLUK = HARİTA UZUNLUĞU x ÖLÇEK</p>
 	<p>Gerçek Uzunluk = 10 cm x 25000</p>
 	<p>Gerçek uzunluk = 250000 cm</p>
@@ -196,7 +204,15 @@
 	<div class="sec10-content">
 	<h3>Ölçek Nedir? - Nasıl Hesaplanır?</h3>
 	<p><strong>Harita ölçekleri</strong> 2 şekildedir:</p>
-	<img src="assets/img/olcek-nasil-hesaplanir.png" alt="">
+  <table border="1">
+      <tr>
+        <td width="250" align="center">Kesir Ölçek</td>
+        <td width="250" align="center">1/10.000</td>
+        <td width="250" align="center">1:11.000</td>
+        <td width="250" align="center">1//10.000</td>
+      </tr>
+
+  </table>
 	<div class="yan-bilgi">
 		<h3>Harita ve Kadastro</h3>
 		<p>

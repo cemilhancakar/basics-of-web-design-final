@@ -37,17 +37,50 @@
     color: #0a4482;
     margin-left:250px;
 }
-.menu-item ul li{
-    list-style: none;
-    float: left;
-	padding-right: 55px;
-}
-.menu-item ul li a {
-    display: block;
+.sidenav {
+    height: 100%;
+    width: 0; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(121, 48, 255);
+    overflow-x: hidden;   transition: 0.5s;
+    padding-top: 60px; 
+  }
+  table{
+    margin-top: 15px;
+    margin-left: 255px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
-    
-	color: #666666;
-}
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+
+  
+  .sidenav a:hover {
+    color: #f1f1f1; 
+  }
+
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
 #sec1{
     background-image: url('../img/harita-nedir-ozellikleri-cesitleri-nasil.jpg');
     width: 100%;
