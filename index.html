@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+	  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <title>Haritalar ve çeşitleri nedir ?</title>
     
@@ -15,14 +16,17 @@
     </div>
     <div class="container">
         <div class="logo"><a href="index.html">HARİTALARIM</a></div>
-      <div class="menu-item">
-       <ul>
-            <li><a href="index.html">Anasayfa</a></li>
-            <li><a href="assets/page/topografya_haritasi.html">Topoğrafya Haritaları</a></li>
-            <li><a href="assets/page/izohips_haritasi.html">İzohips Haritası</a></li>
-            <li><a href="assets/page/cografi_haritalar.html">Coğrafya Haritaları</a></li>
+       <ul class="menu">
+            <li><a class="menuItem" href="index.html">Anasayfa</a></li>
+            <li><a class="menuItem" href="assets/page/topografya_haritasi.html">Topoğrafya Haritaları</a></li>
+            <li><a class="menuItem" href="assets/page/izohips_haritasi.html">İzohips Haritası</a></li>
+            <li><a class="menuItem" href="assets/page/cografi_haritalar.html">Coğrafya Haritaları</a></li>
         </ul>
-      </div>
+        <button class="hamburger">
+          <!-- material icons https://material.io/resources/icons/ -->
+          <i class="uil uil-bars"></i>
+          <i class="uil uil-times"></i>
+        </button>
     </div>
 
     <section id="sec1">
@@ -243,6 +247,8 @@
             <p class="copyright">HARİTALARIM © 2022</p>
         </footer>
 	</div>
+
+  <script src="assets/js/script.js"></script>
 	 
 </body>
 </html>
